@@ -1,0 +1,99 @@
+[33mcommit aa96910ef2066432715698a0c5feeac852bea31d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Wed May 8 20:51:42 2024 +0300
+
+    readme: enhancements (more on checker invocation)
+
+[33mcommit 0d4f68b219de003bf5f1e4a9e6eb11a3d2692616[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Thu Jun 1 17:21:10 2023 +0300
+
+    add 'nospace' test (book fields without ' ')
+
+[33mcommit 839b74b230c697343019aa0272049ff1c5e5ce7a[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Wed May 31 22:15:34 2023 +0300
+
+    add flag to use colon as fields prompt separator
+    
+    (instead of '=')
+
+[33mcommit a1b7dbcaf4ca217603dcb3b6cf472ca666d5f23f[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Mon May 29 23:06:27 2023 +0300
+
+    checker: add interactive SHELL script
+
+[33mcommit 316e9493bc19c70cd6362308628819b175d334f6[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Sat May 20 20:33:22 2023 +0300
+
+    fix default script name regression
+
+[33mcommit b3fdef3fe1a3c85000d36a11f155dc20c6c73280[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Sat May 20 19:08:40 2023 +0300
+
+    fix spawn for program paths containing spaces
+
+[33mcommit abdf83a198ab8559e931a7b8b1df2d1524561aa6[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Sat May 20 18:59:34 2023 +0300
+
+    accept ':' as output field values delimiter
+    
+    (e.g., `field:value`)
+    
+    It was not a valid JSON since quoting is not used...
+
+[33mcommit dd62cbd7e9786218ddaa263c162bb493b9927511[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Sat May 20 18:54:19 2023 +0300
+
+    minor error / success regex fixes (use line + word boundary)
+
+[33mcommit a4290afeac7631bc6fbed38ece678082e2ef8aa9[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Sat May 20 18:25:34 2023 +0300
+
+    make delete_all ignore when no books exist
+
+[33mcommit 9822738ce2f3190187efd2de21487c6378d7446e[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Sat May 20 18:20:46 2023 +0300
+
+    new 'ALL' script for running all scenarios in predefined order
+
+[33mcommit 8853151e363ce0433f988a06db0b3c1b479dd9f3[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Sat May 20 18:07:14 2023 +0300
+
+    add several new scenario scripts
+
+[33mcommit 64e3fc07e1c0413259c477a93c6704f0cc3280c8[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Sat May 20 17:29:31 2023 +0300
+
+    fix get_book/s duplicate title error + regex bug
+    
+    (pexpect TIMEOUT was not clearing `before` buffer...)
+
+[33mcommit 3e56be834bf0cffba7c56113a7fb47173b6c6f0d[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Fri May 19 22:16:11 2023 +0300
+
+    add test success / error output detection from expect
+
+[33mcommit 1c7d1bdd09b70ad5e4e847e766e1637ef62c2ad7[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Fri May 19 21:53:49 2023 +0300
+
+    add colored output + inner text indentation
+    
+    Terminal output should be easier to understand now ;)
+
+[33mcommit b60043b16c407abfa55c677832cbe1e2bec0ed8f[m
+Author: Stancu Florin <niflostancu@gmail.com>
+Date:   Fri May 19 13:47:17 2023 +0300
+
+    add new pexpect-based checker framework + readme
